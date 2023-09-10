@@ -1,0 +1,160 @@
+/* START OF STYLING FOR THE NAVIGATION BAR */
+
+.navigationBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f7f2;
+  gap: 5rem;
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.name {
+  color: #234250;
+}
+
+.navBarContents {
+  display: flex;
+  gap: 10rem;
+}
+
+.aboutMe,
+.experience,
+.works,
+.information,
+.phoneNumber {
+  color: #798385;
+}
+
+.home,
+.aboutMe,
+.experience,
+.works,
+.information,
+.phoneNumber {
+  padding: 5px;
+}
+
+.home,.aboutMe,
+.experience,
+.works,
+.information,
+.phoneNumber {
+  color: #798385;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.home:hover{
+  color: #548c88;
+  border-color: #548c88;
+  cursor: pointer;
+  background-color: #f8f7f2;
+}
+
+.aboutMe:hover{
+    color: #548c88;
+    border-color: #548c88;
+    cursor: pointer;
+    background-color: #f8f7f2;
+}
+
+.experience:hover{
+    color: #548c88;
+    border-color: #548c88;
+    cursor: pointer;
+    background-color: #f8f7f2;
+}
+
+.works:hover{
+    color: #548c88;
+    border-color: #548c88;
+    cursor: pointer;
+    background-color: #f8f7f2;
+}
+
+.information:hover{
+    color: #548c88;
+    border-color: #548c88;
+    cursor: pointer;
+    background-color: #f8f7f2;
+}
+
+.phoneNumber:hover{
+    color: #548c88;
+    border-color: #548c88;
+    cursor: pointer;
+    background-color: #f8f7f2;
+}
+
+
+/* END OF STYLING FOR THE NAVIGATION BAR */
+
+
+
+/* START OF STYLING FOR CONTAINER 1 */
+.samuelNdambuki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 25rem;
+  background-color: #F8F7F2;
+}
+
+.heyThere{
+  color: #0D2F3F;
+  font-weight: bold;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.samNdambuki{
+  color: #0D2F3F;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.email{
+  color: #F26A47;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.design{
+  flex-wrap: wrap;
+}
+
+.designBeautifully{
+  color:#3B4B51;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.things{
+  color:#3B4B51;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.samImage {
+  margin-top: 10rem;
+  border-radius: 50%; /* Make the image round */
+  overflow: hidden; /* Hide overflow content if the image is larger */
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  cursor: pointer;
+}
+
+.samImage img {
+  width: 100%; /* Ensure the image takes up the entire container */
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
