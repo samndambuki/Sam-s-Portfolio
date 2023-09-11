@@ -245,12 +245,20 @@
   align-items: center;
   background-color: #F8F7F1;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .myWrkExp{
   color: #0D2F3F;
   font-size: 2.3rem;
+  transition: color 0.3s, font-size 0.3s;
 }
+
+.myWrkExp:hover{
+  color: #548c88;
+  font-size: 2.5rem;
+}
+
 
 .jitu,.CDED,.msa,.adc{
   display: flex;
@@ -269,6 +277,7 @@
 #txtADC,#txtGol,#txtMsa,#txtMsaLead,#txtJitu,#txtJituIntern,#txtCDED,#txtCDEDIntern{
   color: #0D2F3F;
   font-size: 1.3rem;
+  transition: color 0.3s, font-size 0.3s;;
 }
 
 #timelines{
@@ -277,6 +286,19 @@
 
 #descriptions{
   color: #435358;
+}
+
+/* Add hover effects for text color and font-size */
+#txtADC:hover,
+#txtGol:hover,
+#txtMsa:hover,
+#txtMsaLead:hover,
+#txtJitu:hover,
+#txtJituIntern:hover,
+#txtCDED:hover,
+#txtCDEDIntern:hover {
+  color: #548c88; 
+  font-size: 1.4rem; 
 }
 
 /* END OF STYLING FOR CONTAINER 3 */
