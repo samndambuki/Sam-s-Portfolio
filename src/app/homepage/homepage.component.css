@@ -37,7 +37,8 @@
   padding: 5px;
 }
 
-.home,.aboutMe,
+.home,
+.aboutMe,
 .experience,
 .works,
 .information,
@@ -48,52 +49,49 @@
   transition: border-color 0.3s, color 0.3s;
 }
 
-.home:hover{
+.home:hover {
   color: #548c88;
   border-color: #548c88;
   cursor: pointer;
   background-color: #f8f7f2;
 }
 
-.aboutMe:hover{
-    color: #548c88;
-    border-color: #548c88;
-    cursor: pointer;
-    background-color: #f8f7f2;
+.aboutMe:hover {
+  color: #548c88;
+  border-color: #548c88;
+  cursor: pointer;
+  background-color: #f8f7f2;
 }
 
-.experience:hover{
-    color: #548c88;
-    border-color: #548c88;
-    cursor: pointer;
-    background-color: #f8f7f2;
+.experience:hover {
+  color: #548c88;
+  border-color: #548c88;
+  cursor: pointer;
+  background-color: #f8f7f2;
 }
 
-.works:hover{
-    color: #548c88;
-    border-color: #548c88;
-    cursor: pointer;
-    background-color: #f8f7f2;
+.works:hover {
+  color: #548c88;
+  border-color: #548c88;
+  cursor: pointer;
+  background-color: #f8f7f2;
 }
 
-.information:hover{
-    color: #548c88;
-    border-color: #548c88;
-    cursor: pointer;
-    background-color: #f8f7f2;
+.information:hover {
+  color: #548c88;
+  border-color: #548c88;
+  cursor: pointer;
+  background-color: #f8f7f2;
 }
 
-.phoneNumber:hover{
-    color: #548c88;
-    border-color: #548c88;
-    cursor: pointer;
-    background-color: #f8f7f2;
+.phoneNumber:hover {
+  color: #548c88;
+  border-color: #548c88;
+  cursor: pointer;
+  background-color: #f8f7f2;
 }
-
 
 /* END OF STYLING FOR THE NAVIGATION BAR */
-
-
 
 /* START OF STYLING FOR CONTAINER 1 */
 .samuelNdambuki {
@@ -103,58 +101,182 @@
   text-align: center;
   padding: 20px;
   gap: 25rem;
-  background-color: #F8F7F2;
+  background-color: #f8f7f2;
 }
 
-.heyThere{
-  color: #0D2F3F;
+.heyThere {
+  color: #0d2f3f;
   font-weight: bold;
   font-size: 2.5rem;
   cursor: pointer;
 }
 
-.samNdambuki{
-  color: #0D2F3F;
+.samNdambuki {
+  color: #0d2f3f;
   font-weight: bold;
   font-size: 2rem;
   cursor: pointer;
 }
 
-.email{
-  color: #F26A47;
+.email {
+  color: #f26a47;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.design{
+.design {
   flex-wrap: wrap;
 }
 
-.designBeautifully{
-  color:#3B4B51;
+.designBeautifully {
+  color: #3b4b51;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
-.things{
-  color:#3B4B51;
+.things {
+  color: #3b4b51;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
 .samImage {
   margin-top: 10rem;
-  border-radius: 50%; /* Make the image round */
-  overflow: hidden; /* Hide overflow content if the image is larger */
-  width: 200px; /* Set the desired width */
-  height: 200px; /* Set the desired height */
+  /* Make the image round */
+  border-radius: 50%; 
+  /* Ensure the image takes up the entire container */
+  overflow: hidden; 
+  width: 200px; 
+  height: 200px; 
   cursor: pointer;
 }
 
 .samImage img {
-  width: 100%; /* Ensure the image takes up the entire container */
+  /* Ensure the image takes up the entire container */
+  width: 100%; 
   height: 100%;
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
+   /* Maintain aspect ratio and cover the container */
+  object-fit: cover;
+}
+
+/* END OF STYLING FOR CONTAINER 1 */
+
+/* START OF STYLING FOR CONTAINER 2 */
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 30rem;
+  cursor: pointer;
 }
 
 
+.leftContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;  
+  width: 40%;
+}
+
+.figma,
+.frontend,
+.backend {
+  color: #548c88;
+  border: 1px solid #f2f2f2;
+  padding: 5px 80px 5px 60px;
+  transition: all 0.3s;
+}
+
+.figma:hover,
+.frontend:hover,
+.backend:hover {
+  color: #fff; 
+  background-color: #548c88;
+  border-color: #548c88; 
+}
+
+.rightContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.container2AboutMe{
+  width: 50%;
+}
+
+#txtAbout {
+  color: #0D2F3F;
+  font-size: 2.5rem;
+  /*  smooth transitions for color and font-size changes */
+  transition: color 0.3s, font-size 0.3s; 
+}
+
+#aboutMeContents {
+  color: #56656A;
+  /* Add a smooth transition for color changes */
+  transition: color 0.3s; 
+}
+
+#txtAbout:hover {
+   /* Change text color on hover */
+  color: #548c88;
+  /* Increase font size on hover */
+  font-size: 2.7rem; 
+}
+
+#aboutMeContents:hover {
+  /* Change text color on hover */
+  color: #548c88; 
+}
+
+/* END OF STYLING FOR CONTAINER 2 */
+
+
+/* START OF STYLING FOR CONTAINER 3 */
+.container3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F7F1;
+  margin-top: 2rem;
+}
+
+.myWrkExp{
+  color: #0D2F3F;
+  font-size: 2.3rem;
+}
+
+.jitu,.CDED,.msa,.adc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theJitu,.centerDED,.msAmbsssador,.msADC{
+  width: 50%;
+}
+
+.jituIntern,.jituIntern,.CDEDIntern,.msaLead,.golCaptain{
+  width: 40%;
+}
+
+#txtADC,#txtGol,#txtMsa,#txtMsaLead,#txtJitu,#txtJituIntern,#txtCDED,#txtCDEDIntern{
+  color: #0D2F3F;
+  font-size: 1.3rem;
+}
+
+#timelines{
+  color: #394A50;
+}
+
+#descriptions{
+  color: #435358;
+}
+
+/* END OF STYLING FOR CONTAINER 3 */
