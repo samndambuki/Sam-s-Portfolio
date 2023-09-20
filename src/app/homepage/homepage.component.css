@@ -143,19 +143,19 @@
 .samImage {
   margin-top: 10rem;
   /* Make the image round */
-  border-radius: 50%; 
+  border-radius: 50%;
   /* Ensure the image takes up the entire container */
-  overflow: hidden; 
-  width: 200px; 
-  height: 200px; 
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
   cursor: pointer;
 }
 
 .samImage img {
   /* Ensure the image takes up the entire container */
-  width: 100%; 
+  width: 100%;
   height: 100%;
-   /* Maintain aspect ratio and cover the container */
+  /* Maintain aspect ratio and cover the container */
   object-fit: cover;
 }
 
@@ -171,13 +171,12 @@
   cursor: pointer;
 }
 
-
-.leftContainer{
+.leftContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;  
+  gap: 1rem;
   width: 40%;
 }
 
@@ -193,98 +192,113 @@
 .figma:hover,
 .frontend:hover,
 .backend:hover {
-  color: #fff; 
+  color: #fff;
   background-color: #548c88;
-  border-color: #548c88; 
+  border-color: #548c88;
 }
 
-.rightContainer{
+.rightContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 60%;
 }
 
-.container2AboutMe{
+.container2AboutMe {
   width: 50%;
 }
 
 #txtAbout {
-  color: #0D2F3F;
+  color: #0d2f3f;
   font-size: 2.5rem;
   /*  smooth transitions for color and font-size changes */
-  transition: color 0.3s, font-size 0.3s; 
+  transition: color 0.3s, font-size 0.3s;
 }
 
 #aboutMeContents {
-  color: #56656A;
+  color: #56656a;
   /* Add a smooth transition for color changes */
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 #txtAbout:hover {
-   /* Change text color on hover */
+  /* Change text color on hover */
   color: #548c88;
   /* Increase font size on hover */
-  font-size: 2.7rem; 
+  font-size: 2.7rem;
 }
 
 #aboutMeContents:hover {
   /* Change text color on hover */
-  color: #548c88; 
+  color: #548c88;
 }
 
 /* END OF STYLING FOR CONTAINER 2 */
 
-
 /* START OF STYLING FOR CONTAINER 3 */
-.container3{
+.container3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F8F7F1;
+  background-color: #f8f7f1;
   margin-top: 2rem;
   cursor: pointer;
 }
 
-.myWrkExp{
-  color: #0D2F3F;
+.myWrkExp {
+  color: #0d2f3f;
   font-size: 2.3rem;
   transition: color 0.3s, font-size 0.3s;
 }
 
-.myWrkExp:hover{
+.myWrkExp:hover {
   color: #548c88;
   font-size: 2.5rem;
 }
 
-
-.jitu,.CDED,.msa,.adc{
+.jitu,
+.CDED,
+.msa,
+.adc {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.theJitu,.centerDED,.msAmbsssador,.msADC{
+.theJitu,
+.centerDED,
+.msAmbsssador,
+.msADC {
   width: 50%;
 }
 
-.jituIntern,.jituIntern,.CDEDIntern,.msaLead,.golCaptain{
+.jituIntern,
+.jituIntern,
+.CDEDIntern,
+.msaLead,
+.golCaptain {
   width: 40%;
 }
 
-#txtADC,#txtGol,#txtMsa,#txtMsaLead,#txtJitu,#txtJituIntern,#txtCDED,#txtCDEDIntern{
-  color: #0D2F3F;
+#txtADC,
+#txtGol,
+#txtMsa,
+#txtMsaLead,
+#txtJitu,
+#txtJituIntern,
+#txtCDED,
+#txtCDEDIntern {
+  color: #0d2f3f;
   font-size: 1.3rem;
-  transition: color 0.3s, font-size 0.3s;;
+  transition: color 0.3s, font-size 0.3s;
 }
 
-#timelines{
-  color: #394A50;
+#timelines {
+  color: #394a50;
 }
 
-#descriptions{
+#descriptions {
   color: #435358;
 }
 
@@ -297,8 +311,88 @@
 #txtJituIntern:hover,
 #txtCDED:hover,
 #txtCDEDIntern:hover {
-  color: #548c88; 
-  font-size: 1.4rem; 
+  color: #548c88;
+  font-size: 1.4rem;
 }
 
 /* END OF STYLING FOR CONTAINER 3 */
+
+/* START OF STYLING FOR CONTAINER 4 */
+
+.container4 {
+  cursor: pointer;
+}
+
+.myLatestWorks {
+  color: #0d2f3f;
+  font-size: 1.8rem;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+#perfectSolution {
+  color: #273a41;
+  transition: color 0.3s;
+}
+
+#exploreWorks {
+  color: #f26744;
+  transition: color 0.3s;
+}
+
+.myLatestWorks:hover {
+  color: #548c88;
+  font-size: 2rem;
+}
+
+#perfectSolution:hover {
+  color: #548c88;
+}
+
+#exploreWorks:hover {
+  color: #548c88;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.project1 {
+  padding: 6rem;
+  background-color: #ffcc60;
+  text-align: center;
+  color: white;
+}
+.project2 {
+  padding: 6rem;
+  background-color: #38756a;
+  text-align: center;
+  color: white;
+}
+
+.project3 {
+  padding: 6rem;
+  background-color: #b1ded3;
+  text-align: center;
+  color: white;
+}
+
+.project1,
+.project2,
+.project3 {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover {
+  background-color: #548c88;
+  transform: scale(1.02);
+}
+/* END OF STYLING FOR CONTAINER 4 */
